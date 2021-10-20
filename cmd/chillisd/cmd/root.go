@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 
 	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/fetchai/fetchd/app/params"
+	"github.com/Chillis-Associates/chillisd/app/params"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
@@ -31,7 +31,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	"github.com/fetchai/fetchd/app"
+	"github.com/Chillis-Associates/chillisd/app"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
